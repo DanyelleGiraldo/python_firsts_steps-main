@@ -1,2 +1,9 @@
+def longitud(x):
+    y= len(x)
+    return y
+
+
+
 x=str(input("ingrese numero: "))
-print(x, "tiene", len(x), "digitos")
+resultado= longitud(x)
+print("su numero tiene:", resultado, "digitos")
