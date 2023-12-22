@@ -1,0 +1,12 @@
+import math
+
+
+
+
+radio= float(input("ingrese el radio: "))
+perimetro=  2 * math.pi * radio
+perimetro= "{:.2f}".format(perimetro)
+area= math.pi * radio ** 2
+area= "{:.2f}".format(area)
+print ("el area es: ", area)
+print ("el perimetro es: ", perimetro)
