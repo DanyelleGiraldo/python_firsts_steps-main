@@ -1,0 +1,16 @@
+{
+  "campers": [
+    {
+      "id": "123123",
+      "nombre": "asdf",
+      "apellidos": "asdg",
+      "direccion": "asdf",
+      "acudiente": "asdf",
+      "telefonos": {
+        "celular": "123",
+        "fijo": "123"
+      },
+      "estado": "Matriculado"
+    }
+  ]
+}
