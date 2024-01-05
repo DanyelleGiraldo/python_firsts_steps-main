@@ -1,0 +1,11 @@
+{
+    "rutas_de_entrenamiento": [
+        {
+          "id": 1,
+          "nombre_ruta": " ",
+          "nombre_profesor": "",
+          "salon": "",
+          "horario":" "
+        }
+    ]
+}

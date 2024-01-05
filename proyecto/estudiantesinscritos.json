@@ -1,0 +1,20 @@
+{
+    "campers":
+    [
+    {
+    
+    "nroid": 1,
+    "nombre": "daniel",
+    "apellidos": "x",
+    "direccion": "caracoli",
+    "acudiente": "mama",
+    "telefonocelular": {
+        "celular":"123",
+        "fijo":"213"
+        },
+    "estado": "activo",
+    "ruta": "java"
+   }
+    ]
+}
+    

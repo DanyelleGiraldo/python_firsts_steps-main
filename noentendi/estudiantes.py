@@ -22,17 +22,25 @@ def generardatos():
         obj["estado"]= estado[i%2]
         campers.append(obj)
     return campers
+def añadirusuarios():
+    campersañadidos=[]
+    nombre= input("ingrese el nombre")
+    campersañadidos.append(nombre)
+    return campersañadidos
     
 campers= generardatos()
+campersañadidos= añadirusuarios
 
-def añadirusuarios():
-    
 
-campers_objetos= json.dumps(campers, indent=1)
+
+campers_objetos= json.dumps( campers, indent=1)
 f= open("noentendi/estudiantes.json", "w")
 f.write(campers_objetos)
 f.close()
 
+campersañadidos = añadirusuarios()
+campers.extend(campersañadidos)
+campers_objetos2 = json.dumps(campers, indent=1)
 print("menu")#seguir
 
 

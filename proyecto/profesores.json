@@ -1,0 +1,26 @@
+"profesores":[
+    {
+        "id": 1,
+        "nombre": "Camilo Rodriguez",
+        "ruta": "",
+        "email": "",
+        "telefono":"",
+        "salon":"",
+    }
+    {
+        "id": 2,
+        "nombre": "Silvia Moreno",
+        "ruta": "",
+        "email": "",
+        "telefono":"",
+        "salon":"",
+    }
+    {
+        "id": 3,
+        "nombre": "Carlos Rueda",
+        "ruta": "",
+        "email": "",
+        "telefono":"",
+        "salon":"",
+    }
+]
