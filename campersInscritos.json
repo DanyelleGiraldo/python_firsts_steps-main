@@ -10,7 +10,20 @@
         "celular": "123",
         "fijo": "123"
       },
-      "estado": "Matriculado"
+      "estado": "No Aprobado"
+    },
+    {
+      "id": "109",
+      "nombre": "da",
+      "apellidos": "cs",
+      "direccion": "asdfasdf",
+      "acudiente": "ca",
+      "telefonos": {
+        "celular": "12314",
+        "fijo": "123123"
+      },
+      "estado": "Aprobado",
+      "ruta_elegida": "java"
     }
   ]
 }

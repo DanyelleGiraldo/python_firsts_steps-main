@@ -1,0 +1,140 @@
+1. Registro de campers : El programa debe permitir a las personas encargadas de procesar las #inscripciones
+a el programa; la información que se tiene por cada camper es la siguiente : nro de identificación, #nombre,
+Apellidos, dirección, acudiente, teléfonos de contacto(Nro celular y nro fijo),estado.
+1) campers = []
+En python quiero crear funcion que se añada a campers el diccionario 
+    {
+        identificacion:input
+        nombre: input
+        apellido: input
+        direcion:input 
+        acudiente:input
+        telefono:input
+        estado: input
+    }
+    como buscar en el diccionario:
+    campers[0] = el primer diccionario
+    campers[0]["identificacion"] = identeficacion del primer diccionario
+    campers[1]["identificacion"] = segundo
+    texto = "No se encontro"
+    for camper in campers:
+        if camper["identificacion"] == input:
+            texto = "Se encontro"
+            proceso
+            break
+    print(texto)
+    el diccionario toca añadirlo a campers
+    campers.append(diccionario)
+pasar json  a la lista campers 
+2) Hacer una opcion de registro de prueba inicial el cual recibe una nota teorica y una practica 
+El mostrar el menus el usuario se le pedira el numero de identificacion y se comprobara si esta inscrito el estudiante y si tiene una estado de inscrito
+Los estudiantes inscritos se guardaran en una lista que se llame campers_inscritos[]
+pasan si la calificacion es >= 60
+campers_inscritos = []
+    diccionario = {
+        # identificacion:de la lista campers
+        # nombre: de la lista campers
+        # apellido: de la lista campers
+        # estado: de la lista campers
+        # nota_practica:input
+        # nota_teorica : input
+        # calificacion : (nota_practica+nota_teorica)/2
+    }
+    campers_inscritos.append(diccionario)
+pasar json  a la lista campers_inscritos
+3) Registro de areas de entrenamiento: al principio campus cuenta con tres areas de entrenamiento 
+artemis,apolo y otra, en el cual estaran los estudiantes en cada area en el momento y no permitira añadir si esta lleno
+    areas_de_entrenamiento = [{
+        nombre:"artemis"
+        estudiantes : 0
+    }
+    {
+        nombre : "apolo"
+        estudiantes : 0
+    }
+    {
+        nombre :"sputnik"
+        estudiantes : 0
+    }]
+    diccionario = {
+        area : input
+        estudiantes : input() digite las identificaciones de los estudiantes
+                        solo lo admito si el estado es aprobado ["12314","1231214"]
+                        cuando es 33 no permitir mas registros y necesita una opcion de salida
+    }
+pasar json  a la lista areas_de_entrenamiento   
+4)Creacion de rutas de entrenamiento,crear una ruta inicial con "Ruta NodeJS", "Ruta Java", "Ruta NetCore"
+cada ruta debe tener una combinacion de las siguientes:
+* Fundamentos de programación (Introducción a la algoritmia, PSeInt y Python)
+* Programación Web (HTML, CSS y Bootstrap)
+* Programación formal (Java, JavaScript, C#)
+* Bases de datos (Mysql, MongoDb y Postgresql). Cada ruta tiene un SGDB principal y un alternativo.
+* Backend (NetCore, Spring Boot, NodeJS y Express)
+para crear la ruta se le preguntara el nombre de la ruta y cada una de las informaciones que puede tener
+una ruta con sus respectivas opciones
+  rutas = [{
+      nombre:"NodeJS"
+      fundamentos_de_progamacion:["Introducion_a_la_algoritmia","PSeint","Python"]
+      programacion_web:["HTML","CSS","Bootsrap"]
+      programacion_formal:["JavaScript"]
+      bases_de_datos :[" MongoDb y Postgresql","Mysql"] #la primera es la principal y la segunda es la secundarioa
+      backend:["NodeJS","Express"]
+}, {
+      nombre:"Java"
+      fundamentos_de_progamacion:["Introducion_a_la_algoritmia","PSeint","Python"]
+      programacion_web:["HTML","CSS"]
+      programacion_formal:["Java"]
+      bases_de_datos :[" MongoDb y Postgresql","Mysql"] #la primera es la principal y la segunda es la secundarioa
+      backend:["Spring Boot"]
+}, {
+      nombre:"NetCore"
+      fundamentos_de_progamacion:["Introducion_a_la_algoritmia","PSeint","Python"]
+      programacion_web:["HTML","CSS"]
+      programacion_formal:[" C#"]
+      bases_de_datos :["Mysql"," MongoDb y Postgresql"] #la primera es la principal y la segunda es la secundarioa
+      backend:["NetCore"]}]
+      diccionario = { # listas para el usuario
+          nombre:input()
+          fundamentos_de_progamacion:input =>["Introducion_a_la_algoritmia","PSeint","Python"]
+          programacion_web:input = >["HTML","CSS","Bootstrap"]
+          programacion_formal:input ["Java", "JavaScript", "C#"]
+          bases_de_datos :input ["Postgresql","MongoDb y Mysql"] #preguntar por principal o sencunadria
+          backend:["NetCore","Spring Boot"]}, {
+          nombre:"NetCore"
+          fundamentos_de_progamacion:["Introducion_a_la_algoritmia","PSeint","Python"]
+          programacion_web:["HTML","CSS y Bootstrap)"]
+          programacion_formal:[" C#"]
+          bases_de_datos :["Postgresql","MongoDb y Mysql"] #la primera es la principal y la segunda es la secundarioa
+          backend:["NetCore","Spring Boot","NodeJS y Express"]}
+} 
+pasar json  a la lista rutas  
+Hacer una lista de aprobados y asignarles una ruta al azar que no tenga mas de 33
+ aprobados = [{
+  datos campers con estado aprobado
+}] 
+pasar la lista aprobados a json
+hacer una lista de trainers con el nombre la ruta asignada y el horario
+traines = [{
+  nombre : "Carlos"
+  apellido : "Velez"
+  ruta:"Netcore"
+  horario: "Mañana" o "tarde" 
+}]
+pasar la lista a un json
+5) Gestor de matriculas:
+debe poder asignar campers aprobados
+experto encargado
+ruta de entrenamiento asignada
+fecha inicio
+fecha final 
+salon de entrenamiento
+6)Registro filtro modulo:
+-Se le pregunta la identificacion y se comprueba que el estudiante este aprobado
+-Se le pregunta el modulo que va ha hacer, en caso de ya tener nota final en ese modulo se le pregunta si esta seguro de querer
+sobrescribir en caso de que si sigue y no no sigue
+-Se le pregunta cuanto saco en teorico
+-cuanto en practico
+-y por ultimo cuanto en quices
+-la nota final es teorico*0.3 + practico*0.6 + quices *0.1 tiene que ser mayor de 60 reprobo el modulo
+7) estudiantes en riesgo:
+- hacer una lista de los estudiantes con promedio menor a 60

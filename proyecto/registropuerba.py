@@ -39,11 +39,13 @@ def registrar_notas():
 
     # Calcular el promedio de las notas
     promedio = (nota_teorica + nota_practica) / 2
+    
 
     # Determinar si el camper aprobó la prueba
     if promedio >= 60:
         print(f"El camper {camper_encontrado['nombre']} {camper_encontrado['apellidos']} ha aprobado la prueba con un promedio de {promedio}.")
         camper_encontrado["estado"] = "Aprobado"
+        
     else:
         print(f"El camper {camper_encontrado['nombre']} {camper_encontrado['apellidos']} no ha aprobado la prueba con un promedio de {promedio}.")
         camper_encontrado["estado"] = "No Aprobado"
@@ -52,3 +54,4 @@ def registrar_notas():
     with open("campersInscritos.json", "w") as file:
         json.dump(data, file, indent=2)
 
+registrar_notas()
