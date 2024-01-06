@@ -22,8 +22,12 @@
         "celular": "12314",
         "fijo": "123123"
       },
-      "estado": "Aprobado",
-      "ruta_elegida": "java"
+      "estado": [
+        "ruta",
+        "java"
+      ],
+      "ruta_elegida": "java",
+      "profesor": "Camilo Rodriguez (java)"
     },
     {
       "id": "123",
@@ -35,7 +39,9 @@
         "celular": "123",
         "fijo": "14"
       },
-      "estado": "Aprobado"
+      "estado": "rutajava",
+      "ruta_elegida": "java",
+      "profesor": "Camilo Rodriguez (java)"
     },
     {
       "id": "12341",
@@ -48,6 +54,20 @@
         "fijo": "d312"
       },
       "estado": "No Aprobado"
+    },
+    {
+      "id": "123123",
+      "nombre": "asdfas",
+      "apellidos": "asdfas",
+      "direccion": "asd",
+      "acudiente": "fasdf",
+      "telefonos": {
+        "celular": "asdf",
+        "fijo": "ads"
+      },
+      "estado": "rutajava",
+      "ruta_elegida": "java",
+      "profesor": "Camilo Rodriguez (java)"
     }
   ]
 }

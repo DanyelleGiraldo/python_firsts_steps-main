@@ -1,0 +1,16 @@
+{
+  "profesores": [
+    {
+      "nombre": "Camilo Rodriguez",
+      "ruta": "java"
+    },
+    {
+      "nombre": "Carlos Rueda",
+      "ruta": "nodejs"
+    },
+    {
+      "nombre": "Silvia moreno",
+      "ruta": "netcore"
+    }
+  ]
+}

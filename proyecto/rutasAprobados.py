@@ -33,12 +33,13 @@ def inscribir_candidato():
     # Verificar si la ruta seleccionada es válida
     rutas_validas = ["nodejs", "java", "netcore"]
     ruta_elegida = input("Seleccione la ruta de entrenamiento (NodeJS, Java, NetCore): ")
-    ruta_elegida.lower
+    ruta_elegida = ruta_elegida.lower()
     if ruta_elegida not in rutas_validas:
         print("Ruta no válida. Por favor, seleccione entre NodeJS, Java o NetCore.")
         return
 
     # Agregar la ruta al diccionario del camper encontrado
+    camper_encontrado["estado"] = (f"ruta{ruta_elegida}") 
     camper_encontrado["ruta_elegida"] = ruta_elegida
 
     # Guardar la base de datos actualizada
