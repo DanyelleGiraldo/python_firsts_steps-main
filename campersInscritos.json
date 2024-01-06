@@ -24,6 +24,30 @@
       },
       "estado": "Aprobado",
       "ruta_elegida": "java"
+    },
+    {
+      "id": "123",
+      "nombre": "asdfa",
+      "apellidos": "asdf",
+      "direccion": "cac",
+      "acudiente": "fasd",
+      "telefonos": {
+        "celular": "123",
+        "fijo": "14"
+      },
+      "estado": "Aprobado"
+    },
+    {
+      "id": "12341",
+      "nombre": "asdf",
+      "apellidos": "zxcv",
+      "direccion": "234",
+      "acudiente": "12",
+      "telefonos": {
+        "celular": "2134",
+        "fijo": "d312"
+      },
+      "estado": "No Aprobado"
     }
   ]
 }
