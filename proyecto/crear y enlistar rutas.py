@@ -18,6 +18,7 @@ def crear_rutas():
     nombreruta= input("ingrese el nombre de la nueva ruta: ")
     opcionesvalidas=["Fundamentos de programación", "Programación Web", "Programación formal", "Bases de datos Backend"]
     temaprincipalruta= input(f"ingrese el tema principal de la ruta {nombreruta}: \n {opcionesvalidas} ")
+    salon= input("ingrese el salon en el que desea asignar la ruta \n sputnik \n artemis \n apolo ")
     if temasecundarioruta != temaprincipalruta:
         temasecundarioruta= input(f"ingre el tema secundario de la ruta {nombreruta}: \n {opcionesvalidas}")
     else: 
@@ -26,7 +27,8 @@ def crear_rutas():
     nuevaruta= {
         "nombreruta": nombreruta,
         "temaprincipalruta": temaprincipalruta,
-        "temasecundarioruta": temasecundarioruta
+        "temasecundarioruta": temasecundarioruta,
+        "salonuevaruta": salon
     }
     
     try:

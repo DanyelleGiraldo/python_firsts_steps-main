@@ -2,7 +2,8 @@
   "profesores": [
     {
       "nombre": "Camilo Rodriguez",
-      "ruta": "java"
+      "ruta": "java",
+      "horario": 
     },
     {
       "nombre": "Carlos Rueda",

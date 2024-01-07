@@ -1,30 +1,35 @@
 import json
 import os
 
-def crear_asignar_rutas_profesores():
+def cargar_base_datos_profesores():
     try:
-        # Imprimir el directorio actual
-        print("Directorio actual:", os.getcwd())
-
-        # Verificar si el archivo de profesores existe
-        if os.path.isfile("profesores.json"):
-            # Cargar la base de datos de profesores desde el archivo existente
-            with open("profesores.json", "r") as file:
-                data = json.load(file)
-        else:
-            data = {"profesores": []}
+        with open("profesores.json", "r") as file:
+            data = json.load(file)
     except FileNotFoundError:
-        print("Error: No se encontró la base de datos de profesores.")
-        return
-    
-    print(f"Lista de profesores: {data['profesores']} ")
+        data = {"profesores": []}
+    return data
+
+def enlistar_profesores():
+    data = cargar_base_datos_profesores()
+
+    if data["profesores"]:
+        print("Lista de profesores:")
+        for profesor in data["profesores"]:
+            print(f"Nombre: {profesor['nombre']} {profesor['apellido']}, Ruta: {profesor['rutaprofesor']}, Horario: {profesor['horarioprofe']}, Salón: {profesor['salonprofe']}")
+    else:
+        print("No hay profesores registrados.")
+
+def crear_asignar_rutas_profesores():
+    data = cargar_base_datos_profesores()
+
+    print("Lista de profesores:")
     for profesor in data["profesores"]:
-        print(f"Nombre: {profesor['nombre']}, Ruta: {profesor['rutaprofesor']}")
+        print(f"Nombre: {profesor['nombre']} {profesor['apellido']}, Ruta: {profesor['rutaprofesor']}, Horario: {profesor['horarioprofe']}, Salón: {profesor['salonprofe']}")
 
     nombreprofe = input("Agregue nombre del nuevo profesor: ")
     apellidoprofe = input("Agregue apellido del nuevo profesor: ")
     rutaprofe = input("Agregue ruta del nuevo profesor: ")
-    horarioprofe = int(input("Ingrese el horario del profesor: "))
+    horarioprofe = input("Ingrese el horario del profesor: ")
     salonprofe = input("Ingrese el salon del profesor: ")
 
     new_profesor = {
@@ -44,4 +49,6 @@ def crear_asignar_rutas_profesores():
 
     print("Profesor inscrito exitosamente.")
 
+# Ejecutar el programa
+enlistar_profesores()
 crear_asignar_rutas_profesores()
