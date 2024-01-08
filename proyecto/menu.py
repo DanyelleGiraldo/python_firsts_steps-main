@@ -1,5 +1,6 @@
 import sys
 from funciones.registroCampers import cargar_base_datos, inscribir_camper, enlistar_campers, modificar_camper, eliminar_camper
+from funciones.registrarprofesor import  crear_asignar_rutas_profesores, enlistar_profesores, modificar_profesor, eliminar_profesor
 
 # Agrega el directorio principal de tu proyecto al path
 sys.path.append('..')
@@ -22,7 +23,7 @@ def mostrar_menu():
             cargar_base_datos()
             submenu_camper()  # Llamada correcta a submenu_camper
         elif op == "2":
-            # Lógica para Trainers
+            submenu_trainer() # Llamada correcta a submenu_trainer()
             pass
         elif op == "3":
             # Lógica para Matriculas
@@ -61,6 +62,33 @@ def submenu_camper():
             break
         else:
             print("Opción no válida")
+            
+def submenu_trainer():
+    while True:  # Agregado para que el submenú se repita
+        print("1. Inscribir trainer")
+        print("2. Enlistar trainer")
+        print("3. Modificar trainer")
+        print("4. Eliminar trainer")
+        print("5. Volver al menú principal")
+        optrainer = input("Seleccione su opcion: ").strip()
+
+        if optrainer == "1":
+           crear_asignar_rutas_profesores()
+        elif optrainer == "2":
+            enlistar_profesores()
+        elif optrainer == "3":
+            enlistar_profesores()
+            rutaprofe= input("cual es el nombre del profesor?: ")
+            modificar_profesor(rutaprofe)
+        elif optrainer == "4":
+             enlistar_profesores()
+             nombreprofe= input("cual es el nombre del profesor?: ")
+             eliminar_profesor(nombreprofe)            
+        elif optrainer == "5":
+            print("Volviendo al menú principal.")
+            break
+        else:
+            print("Opción no válida")           
 
 # Ejecutar el programa
 mostrar_menu()

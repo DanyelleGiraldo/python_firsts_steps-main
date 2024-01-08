@@ -1,17 +1,11 @@
 {
   "profesores": [
     {
-      "nombre": "Camilo Rodriguez",
+      "nombre": "Camilo ",
+      "apellido": "Rodriguez",
       "ruta": "java",
-      "horario": 
-    },
-    {
-      "nombre": "Carlos Rueda",
-      "ruta": "nodejs"
-    },
-    {
-      "nombre": "Silvia moreno",
-      "ruta": "netcore"
+      "horario": "mañana",
+      "salon": "sputnik"
     }
   ]
 }
