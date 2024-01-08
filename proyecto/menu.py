@@ -1,8 +1,11 @@
 import sys
-sys.path.append(r'C:\Users\danie\Documents\python_firsts_steps-main\proyecto')
-
 from funciones.registroCampers import cargar_base_datos, inscribir_camper, enlistar_campers, modificar_camper, eliminar_camper
 
+# Agrega el directorio principal de tu proyecto al path
+sys.path.append('..')
+
+# Ahora puedes importar los módulos relativos
+from funciones.registroCampers import cargar_base_datos, inscribir_camper, enlistar_campers, modificar_camper, eliminar_camper
 # Ahora puedes utilizar las funciones importadas
 
 def mostrar_menu():

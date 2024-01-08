@@ -111,5 +111,3 @@ def eliminar_camper():
             return
 
     print(f"No se encontró ningún camper con el ID {id_eliminar}.")
-
-
