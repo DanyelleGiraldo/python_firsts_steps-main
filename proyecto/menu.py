@@ -1,4 +1,9 @@
+import sys
+sys.path.append(r'C:\Users\danie\Documents\python_firsts_steps-main\proyecto')
+
 from funciones.registroCampers import cargar_base_datos, inscribir_camper, enlistar_campers, modificar_camper, eliminar_camper
+
+# Ahora puedes utilizar las funciones importadas
 
 def mostrar_menu():
     while True:
@@ -8,11 +13,11 @@ def mostrar_menu():
         print("4. Aulas")
         print("5. Reportes")
         print("6. Salir")
-        op = input("Seleccione su opcion: ")
+        op = input("Seleccione su opcion: ").strip()
 
         if op == "1":
             cargar_base_datos()
-            submenu_camper()
+            submenu_camper()  # Llamada correcta a submenu_camper
         elif op == "2":
             # Lógica para Trainers
             pass
@@ -32,22 +37,27 @@ def mostrar_menu():
             print("Opción no válida. Inténtelo de nuevo.")
 
 def submenu_camper():
-    print("1. Inscribir camper")
-    print("2. Enlistar campers")
-    print("3. Modificar camper")
-    print("4. Eliminar camper")
-    opcamper = input("Seleccione su opcion: ")
+    while True:  # Agregado para que el submenú se repita
+        print("1. Inscribir camper")
+        print("2. Enlistar campers")
+        print("3. Modificar camper")
+        print("4. Eliminar camper")
+        print("5. Volver al menú principal")
+        opcamper = input("Seleccione su opcion: ").strip()
 
-    if opcamper == "1":
-        inscribir_camper()
-    elif opcamper == "2":
-        enlistar_campers()
-    elif opcamper == "3":
-        modificar_camper()
-    elif opcamper == "4":
-        eliminar_camper()
-    else:
-        print("Opción no válida")
+        if opcamper == "1":
+            inscribir_camper()
+        elif opcamper == "2":
+            enlistar_campers()
+        elif opcamper == "3":
+            modificar_camper()
+        elif opcamper == "4":
+            eliminar_camper()
+        elif opcamper == "5":
+            print("Volviendo al menú principal.")
+            break
+        else:
+            print("Opción no válida")
 
 # Ejecutar el programa
 mostrar_menu()

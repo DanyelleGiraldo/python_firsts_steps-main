@@ -54,4 +54,3 @@ def registrar_notas():
     with open("campersInscritos.json", "w") as file:
         json.dump(data, file, indent=2)
 
-registrar_notas()

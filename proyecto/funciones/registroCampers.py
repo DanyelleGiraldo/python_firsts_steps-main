@@ -112,5 +112,4 @@ def eliminar_camper():
 
     print(f"No se encontró ningún camper con el ID {id_eliminar}.")
 
-# Ejecutar el programa
-inscribir_camper()
+

@@ -94,5 +94,3 @@ def modificar_ruta_camper():
 
     print(f"Ruta modificada a {nueva_ruta} para el camper {camper_encontrado['nombre']} {camper_encontrado['apellidos']} (ID: {camper_encontrado['id']}).")
 
-# Ejecutar el programa
-inscribir_candidato()

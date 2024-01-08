@@ -68,30 +68,8 @@
       "estado": "rutajava",
       "ruta_elegida": "java",
       "profesor": "Camilo Rodriguez (java)"
-    },
-    {
-      "id": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py",
-      "nombre": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py",
-      "apellidos": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py",
-      "direccion": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py",
-      "acudiente": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py",
-      "telefonos": {
-        "celular": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py",
-        "fijo": "& C:/Users/danie/AppData/Local/Programs/Python/Python312/python.exe c:/Users/danie/Documents/python_firsts_steps-main/proyecto/menu.py"
-      },
-      "estado": "Matriculado"
-    },
-    {
-      "id": "",
-      "nombre": "",
-      "apellidos": "",
-      "direccion": "",
-      "acudiente": "",
-      "telefonos": {
-        "celular": "",
-        "fijo": ""
-      },
-      "estado": "Matriculado"
     }
+  
+    
   ]
 }

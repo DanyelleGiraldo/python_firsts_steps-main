@@ -48,7 +48,3 @@ def crear_asignar_rutas_profesores():
         json.dump(data, file, indent=2)
 
     print("Profesor inscrito exitosamente.")
-
-# Ejecutar el programa
-enlistar_profesores()
-crear_asignar_rutas_profesores()

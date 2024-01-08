@@ -36,5 +36,3 @@ def enlazar_estudiantes_con_profesor():
 
     print("Enlace de estudiantes con profesores completado.")
 
-# Ejecutar el programa
-enlazar_estudiantes_con_profesor()

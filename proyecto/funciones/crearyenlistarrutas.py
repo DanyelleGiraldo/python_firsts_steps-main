@@ -46,4 +46,3 @@ def crear_rutas():
 
     print("la ruta ha sido creada exitosamente.")
     
-crear_rutas()
