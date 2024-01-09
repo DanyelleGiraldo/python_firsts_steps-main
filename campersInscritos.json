@@ -30,20 +30,6 @@
       "profesor": "Camilo Rodriguez (java)"
     },
     {
-      "id": "123",
-      "nombre": "asdfa",
-      "apellidos": "asdf",
-      "direccion": "cac",
-      "acudiente": "fasd",
-      "telefonos": {
-        "celular": "123",
-        "fijo": "14"
-      },
-      "estado": "rutajava",
-      "ruta_elegida": "java",
-      "profesor": "Camilo Rodriguez (java)"
-    },
-    {
       "id": "12341",
       "nombre": "asdf",
       "apellidos": "zxcv",
@@ -69,7 +55,5 @@
       "ruta_elegida": "java",
       "profesor": "Camilo Rodriguez (java)"
     }
-  
-    
   ]
 }

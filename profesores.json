@@ -1,10 +1,10 @@
 {
   "profesores": [
     {
-      "nombre": "Camilo ",
-      "apellido": "Rodriguez",
+      "nombre": "Danilo",
+      "apellido": "giraldo",
       "ruta": "java",
-      "horario": "mañana",
+      "horario": "ma\u00f1ana",
       "salon": "sputnik"
     }
   ]

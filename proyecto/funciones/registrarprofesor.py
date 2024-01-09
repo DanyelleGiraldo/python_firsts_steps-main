@@ -66,7 +66,7 @@ def eliminar_profesor(nombreprofe):
     profesor_encontrado = None
 
     for profesor in profesores:
-        if profesor.get("nombre") == nombreprofe:
+        if profesor.get("nombre", "") == nombreprofe:
             profesor_encontrado = profesor
             break
 
@@ -114,7 +114,22 @@ def modificar_profesor(nombre):
         print("Profesor modificado exitosamente.")
     else:
         print(f"No se encontró ningún profesor el nombre {nombre}.")
+        
 
+def enlistar_salones_con_datos():
+    try:
+        # Cargar la base de datos de profesores desde el archivo existente
+        with open("profesores.json", "r") as file:
+            profesores_data = json.load(file)
+    except FileNotFoundError:
+        print("Error: No se encontró la base de datos de profesores.")
+        return
 
-
-
+    print("Lista de profesores con datos del salón:")
+    for profesor in profesores_data["profesores"]:
+        nombre = profesor.get("nombre", "Nombre no disponible")
+        apellido = profesor.get("apellido", "Apellido no disponible")
+        ruta = profesor.get("ruta", "Ruta no disponible")
+        horario = profesor.get("horario", "Horario no disponible")
+        salon = profesor.get("salon", "Salón no disponible")
+        print(f"Nombre: {nombre} {apellido}, Ruta: {ruta}, Horario: {horario}, Salón: {salon}")

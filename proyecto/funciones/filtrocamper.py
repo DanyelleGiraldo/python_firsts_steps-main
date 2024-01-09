@@ -72,6 +72,13 @@ def evaluar_camper(camper_id, nota_teorica, nota_practica, nota_trabajo):
 
     print(f"Camper con ID {camper_id} no encontrado.")
 
+def enlistar_campers_en_riesgo():
+    datacampers = cargarbasecampers()
+
+    print("Lista de Campers en Riesgo:")
+    for camper in datacampers["campers"]:
+        if camper.get("estadomatricula", "") == "Enriesgo":
+            print(f"{camper['nombre']} {camper['apellidos']} (ID: {camper['id']})")
 
 def main():
     # Ejemplo de uso

@@ -76,6 +76,11 @@ def modificar_camper():
             nuevo_acudiente = input("Nuevo nombre del acudiente del camper: ")
             nuevo_celular = input("Nuevo número de celular del camper: ")
             nuevo_fijo = input("Nuevo número fijo del camper: ")
+            nuevo_ruta= input("ingrese la nueva ruta: ")
+            nuevo_profesor= input("ingrese el nuevo profesor: ")
+            fecha_de_inicio= input("ingrese la fecha de inicio: ")
+            fecha_de_finalizacion= input("ingrese la fecha de finalizacion")
+            
 
             # Aplicar las modificaciones
             camper["nombre"] = nuevo_nombre
@@ -84,6 +89,10 @@ def modificar_camper():
             camper["acudiente"] = nuevo_acudiente
             camper["telefonos"]["celular"] = nuevo_celular
             camper["telefonos"]["fijo"] = nuevo_fijo
+            camper["ruta_elegida"]= nuevo_ruta
+            camper["profesor"]= nuevo_profesor
+            camper["fechadeinicio"]= fecha_de_inicio
+            camper["fechafinal"]= fecha_de_finalizacion
 
             # Guardar la base de datos actualizada
             with open("campersInscritos.json", "w") as file:

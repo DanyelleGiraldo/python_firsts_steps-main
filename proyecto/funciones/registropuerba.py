@@ -12,7 +12,7 @@ def registrar_notas():
     # Mostrar la lista de campers inscritos
     print("Lista de Campers Inscritos:")
     for camper in data["campers"]:
-        if camper["estado"] == "Matriculado":
+        if camper["estado"] == "Inscrito":
             print(f"{camper['nombre']} {camper['apellidos']} (ID: {camper['id']})")
 
     # Solicitar el ID del camper al que se le registrará la nota
@@ -53,4 +53,19 @@ def registrar_notas():
     # Actualizar la base de datos con las notas y el estado del camper
     with open("campersInscritos.json", "w") as file:
         json.dump(data, file, indent=2)
+        
+        
+def listar_campers_aprobados():
+    try:
+        # Cargar la base de datos de campers desde el archivo existente
+        with open("campersInscritos.json", "r") as file:
+            data = json.load(file)
+    except FileNotFoundError:
+        print("Error: No se encontró la base de datos.")
+        return
 
+    # Mostrar la lista de campers aprobados
+    print("Lista de Campers Aprobados:")
+    for camper in data["campers"]:
+        if camper["estado"] != "No Aprobado":
+            print(f"{camper['nombre']} {camper['apellidos']} (ID: {camper['id']})")
