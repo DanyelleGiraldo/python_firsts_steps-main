@@ -1,0 +1,299 @@
+[
+ {
+  "nroid": 1,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "activo"
+ },
+ {
+  "nroid": 2,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 3,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "activo"
+ },
+ {
+  "nroid": 4,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 5,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "activo"
+ },
+ {
+  "nroid": 6,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 7,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "activo"
+ },
+ {
+  "nroid": 8,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 9,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "activo"
+ },
+ {
+  "nroid": 10,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 11,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "activo"
+ },
+ {
+  "nroid": 12,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 13,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "activo"
+ },
+ {
+  "nroid": 14,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 15,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "activo"
+ },
+ {
+  "nroid": 16,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 17,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "activo"
+ },
+ {
+  "nroid": 18,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 19,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "activo"
+ },
+ {
+  "nroid": 20,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 21,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "activo"
+ },
+ {
+  "nroid": 22,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 23,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "activo"
+ },
+ {
+  "nroid": 24,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 25,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "activo"
+ },
+ {
+  "nroid": 26,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 27,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "activo"
+ },
+ {
+  "nroid": 28,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 29,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "activo"
+ },
+ {
+  "nroid": 30,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 31,
+  "nombre": "daniel",
+  "apellidos": "x",
+  "direccion": "caracoli",
+  "acudiente": "mama",
+  "telefonocelular": "123",
+  "estado": "activo"
+ },
+ {
+  "nroid": 32,
+  "nombre": "juanito",
+  "apellidos": "l",
+  "direccion": "guanta",
+  "acudiente": "papa",
+  "telefonocelular": "321",
+  "estado": "inactivo"
+ },
+ {
+  "nroid": 33,
+  "nombre": "steven",
+  "apellidos": "y",
+  "direccion": "giron",
+  "acudiente": "abuela",
+  "telefonocelular": "213",
+  "estado": "activo"
+ }
+]

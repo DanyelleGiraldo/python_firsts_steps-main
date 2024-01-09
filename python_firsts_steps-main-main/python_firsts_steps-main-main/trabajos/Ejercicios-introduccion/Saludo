@@ -1,0 +1,4 @@
+print("cual es su nombre??")
+nombre= str(input(""))
+
+print ("hola,", nombre)

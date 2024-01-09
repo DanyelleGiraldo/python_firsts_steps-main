@@ -1,0 +1,7 @@
+horaactual= int(input("ingrese la hora actual "))
+hp= int(input("cantidad de horas que pasan "))
+
+z= (horaactual+hp)%24
+
+print("la hora seria ", z)
+

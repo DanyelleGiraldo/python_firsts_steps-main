@@ -1,0 +1,71 @@
+{
+  "campers": [
+    {
+      "id": "123123",
+      "nombre": "asdf",
+      "apellidos": "asdg",
+      "direccion": "asdf",
+      "acudiente": "asdf",
+      "telefonos": {
+        "celular": "123",
+        "fijo": "123"
+      },
+      "estado": "No Aprobado"
+    },
+    {
+      "id": "109",
+      "nombre": "da",
+      "apellidos": "cs",
+      "direccion": "asdfasdf",
+      "acudiente": "ca",
+      "telefonos": {
+        "celular": "12314",
+        "fijo": "123123"
+      },
+      "estado": [
+        "ruta",
+        "java"
+      ],
+      "ruta_elegida": "java",
+      "profesor": "Camilo Rodriguez (java)"
+    },
+    {
+      "id": "12341",
+      "nombre": "asdf",
+      "apellidos": "zxcv",
+      "direccion": "234",
+      "acudiente": "12",
+      "telefonos": {
+        "celular": "2134",
+        "fijo": "d312"
+      },
+      "estado": "No Aprobado"
+    },
+    {
+      "id": "123123",
+      "nombre": "asdfas",
+      "apellidos": "asdfas",
+      "direccion": "asd",
+      "acudiente": "fasdf",
+      "telefonos": {
+        "celular": "asdf",
+        "fijo": "ads"
+      },
+      "estado": "rutajava",
+      "ruta_elegida": "java",
+      "profesor": "Camilo Rodriguez (java)"
+    },
+    {
+      "id": "1098",
+      "nombre": "christopher",
+      "apellidos": "buitrago",
+      "direccion": "casa",
+      "acudiente": "cucha",
+      "telefonos": {
+        "celular": "312",
+        "fijo": "123"
+      },
+      "estado": "Matriculado"
+    }
+  ]
+}
